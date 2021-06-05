@@ -1,0 +1,29 @@
+.social-bar {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 50%;
+  left: 1%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.social-bar a {
+  text-decoration: none;
+  color: crimson;
+  font-size: 2rem;
+  margin: 1rem 0;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+.social-bar a:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+/*# sourceMappingURL=Socialbar.css.map */

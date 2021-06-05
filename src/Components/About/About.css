@@ -1,0 +1,92 @@
+.about {
+  min-height: 100vh;
+  background: #301934;
+}
+
+.about div:first-of-type {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.about div:first-of-type h1 {
+  position: relative;
+  font-size: 2.5rem;
+  text-align: center;
+  display: block;
+  color: blanchedalmond;
+}
+
+.about div:first-of-type h1::before {
+  content: 'About';
+  position: absolute;
+  border-bottom: 7px solid blanchedalmond;
+  width: 0;
+  top: 0;
+  left: 0;
+  -webkit-transition: width 100ms;
+  transition: width 100ms;
+}
+
+.about div:first-of-type h1:hover::before {
+  width: 100%;
+}
+
+.about div:last-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto 0;
+}
+
+.about div:last-of-type div:first-of-type {
+  width: 30%;
+  display: initial;
+}
+
+.about div:last-of-type div:first-of-type img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.about div:last-of-type div:last-of-type {
+  width: 70%;
+  display: initial;
+}
+
+.about div:last-of-type div:last-of-type p {
+  width: 80%;
+  margin: 0 auto;
+  color: blanchedalmond;
+}
+
+.about div:last-of-type div:last-of-type a {
+  text-decoration: none;
+}
+
+.about div:last-of-type div:last-of-type a button {
+  border: 3.5px solid crimson;
+  background: none;
+  background-color: transparent;
+  color: crimson;
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-left: 10%;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+.about div:last-of-type div:last-of-type a button:hover {
+  color: white;
+  background-color: crimson;
+}
+/*# sourceMappingURL=About.css.map */

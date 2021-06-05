@@ -1,0 +1,18 @@
+.social-bar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 1%;
+    transform: translate(0, -50%);
+    a{
+        text-decoration: none;
+        color: crimson;
+        font-size: 2rem;
+        margin: 1rem 0;
+        transition: 100ms;
+    }
+    a:hover{
+        transform: scale(1.4);
+    }
+}

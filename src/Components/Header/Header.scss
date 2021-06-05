@@ -1,0 +1,44 @@
+.header{
+    min-height: 100vh;
+    background: url(./foggy-1149637_1920.jpg);
+    background-color: #101010;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    h1{
+        color: white;
+        font-size: 3.5rem;
+
+        span{
+            color: #D22730 !important;
+        }
+    }
+    button{
+        border: 4.5px solid crimson;
+        background: none;
+        background-color: transparent;
+        color: crimson;
+        font-size: 2rem;
+        padding: 10px 15px;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: background-color 500ms;
+        i{
+            transition: 500ms;
+        }
+    }
+    button:hover{
+        color: white;
+        background-color: crimson;
+        i{
+            transform: rotate(90deg);
+        }
+    }
+}
